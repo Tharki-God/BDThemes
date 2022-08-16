@@ -1,1 +1,298 @@
+/**
+    * @name AMOLED-Gand
+    * @version 1.0.1
+    * @description A theme that's nice on your IDK.. FK!
+    * @author Ahlawat
+	* @authorId 887483349369765930
+	* @invite SgKSKyh9gY
+	* @website https://tharki-god.github.io/
+	* @source https://github.com/Tharki-God/BDThemes/tree/main
+	* @updateUrl https://raw.githubusercontent.com/Tharki-God/BDThemes/main/AMOLED-Gand.theme.css
+	
+**/
 
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
+
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+	
+	@import url("https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css");
+	/* Colors all the page svgs of discord */
+	
+	
+	
+	@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
+	/* Changes all discord default icons to iconsax icons */
+	
+	@import url("https://lavender-discord.github.io/Lavender/modules/addons/mention-links.css");
+	/* Turns some common links to buttons/mentions, kind of helps you figure out phishing sites  */
+	
+	
+	
+	
+	
+	
+	@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+		/* Adds dark to server add menu */
+		
+		@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+			/* Better plugin list */
+			@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
+			
+			
+			@import url("https://luckfire.github.io/amoled-cord/src/support/compiled.css");
+			
+	:root {
+    --SC-spotify-green: rgba(69, 69, 69, 1);
+    --blurple-replace: rgba(200, 0, 0, 0.69);
+    --background-primary: rgb(0, 0, 0);
+    --background-secondary: rgb(0, 0, 0);
+    --background-secondary-alt: rgb(0, 0, 0);
+    --background-tertiary: rgb(0, 0, 0);
+    --background-accent: rgb(0, 0, 0);
+    --background-floating: rgb(0, 0, 0);
+    --interactive-normal: rgb(0, 0, 0);
+    --userarea-background: var(--background-tertiary);
+    --header-primary: rgb(255, 255, 255);
+    --header-secondary: rgb(189, 189, 189);
+    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: #969696;
+    --channeltextarea-background: rgb(25, 25, 25);
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --activity-card-background: #0f0f0f;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: rgb(75, 75, 75);
+    --background-modifier-hover: rgba(50, 50, 50, 0.16);
+    --background-modifier-active: rgba(50, 50, 50, 0.24);
+    --background-modifier-selected: rgba(50, 50, 50, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --text-link: rgb(218, 0, 83);
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+    --background-accent-1: rgb(15, 15, 15, 0.1);
+    --background-accent-3: rgb(15, 15, 15, 0.3);
+    --background-floating-2: rgba(0, 0, 0, 0.2);
+    --embed-border-radius: 8px;
+    --accentcolor: 135, 35, 35;
+    --accentcolor2: 250, 50, 50;
+    --linkcolor: 255, 0, 0;
+    --embed-line-width: 256px;
+}
+			
+			
+			.VoiceActivity-voiceicon-iconCurrentCall {
+				background: var(--accentcolor);
+			}
+			
+			
+			
+			/* Rounded Context Menu */
+			.menu-1QACrS, .colorDefault-CDqZdO { 
+				border-radius: 15px; 
+			}
+			/* edited text */
+			.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+				content: " (" attr(aria-label) ")";
+				color: var(--text-muted);
+				font-size: 0.625rem;
+				font-weight: 400;
+				line-height: 1;
+				text-transform: lowercase;
+			}
+			.edited-1v5nT8:not(.message-translate-indicator) {
+				display: none;
+			}
+			
+			.privateChannels-oVe7HL [href="/store"] + svg,
+			.item-3XjbnG [class*="Promo"],
+			.premiumLabel-3HPvdB svg,
+			.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
+				display: none;
+			}
+			.premiumLabel-3HPvdB {
+				color: var(--color-muted);
+			}
+			
+			/* Re-round Spotify Status Images */
+			.assetsLargeImageSpotify-17ME3M{border-radius:8px;}
+			
+			
+			/*Home button spin*/
+			@keyframes spin {
+				0% {
+					transform: rotate(0deg);
+				}
+				20% {
+					transform: rotate(-20deg);
+				}
+				70% {
+					transform: rotate(380deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+			
+			.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+				animation: spin 0.8s ease;
+			}
+			
+			
+			/* Better Jump To Present Button */
+			[class*="jumpToPresentBar"] {
+				display: contents;
+			}
+			[class*="jumpToPresentBar"] > button:first-child {
+				display: none;
+			}
+			[class*="jumpToPresentBar"] > button:last-child {
+				position: absolute;
+				z-index: 1;
+				bottom: 48px;
+				right: 44px;
+				padding: 8px !important;
+				height: auto;
+				background-color: var(--background-primary);
+				box-shadow: var(--elevation-high);
+				border-radius: 100px;
+				display: flex;
+				font-size: 0px;
+				color: transparent;
+				transition: font-size .2s .1s, color .2s, padding .4s .1s;
+			}
+			[class*="jumpToPresentBar"] > button svg {
+				order: -1;
+				margin: 0px;
+				height: 24px;
+				width: 24px;
+				top: auto;
+				margin-right: 0px;
+				margin-left: 0px;
+				color: var(--text-normal);
+				transition: margin .6s;
+			}
+			[class*="jumpToPresentBar"]:hover > button {
+				padding: 8px 18px !important;
+				font-size: 14px;
+				color: var(--text-normal);
+				transition: font-size .2s, color .2s .1s, padding .4s;
+			}
+			[class*="jumpToPresentBar"]:hover > button svg {
+				margin-right: 2px;
+				margin-left: -6px;
+			}
+			
+			/* Pings */
+			.numberBadge-2s8kKX {
+				animation: animatedPing 1.3s infinite ease-in-out;
+			}
+			@keyframes animatedPing {
+				0% {
+					transform: rotate(-12deg);
+				}
+				50% {
+					transform: rotate(12deg) scale(1.2);
+				}
+				100% {
+					transform: rotate(-10deg);
+				}
+			}
+			
+			
+			
+			
+			/* Remove CreArts Modal Blur */
+			.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
+			
+			.icon-1A2_vz:hover {
+				position: relative;
+				animation: SpinIcons 2s infinite;
+			}	
+			@keyframes SpinIcons {
+				0% {transform: rotate(0deg);}
+				100% {transform: rotate(360deg);}
+			}
+			
+			/*Camera unmirror*/
+			.mirror-1Z13AJ {transform: none}
+			
+			/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+			.clamped-IwJfxR{
+				-webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+				max-height:112px;
+				overflow-x: hidden;
+				overflow-y:scroll;
+			}
+			.clamped-IwJfxR::-webkit-scrollbar {
+				width: 15px;
+				height: 15px;
+			}
+			.clamped-IwJfxR::-webkit-scrollbar-track {
+				border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+				background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+			}
+			.clamped-IwJfxR::-webkit-scrollbar-thumb {
+				background: linear-gradient(45deg, #00aeff, #a68eff); /* Edit this to whatever color/colors you'd like*/
+				border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+			}
+			
+			
+			
+			/*Hide Spotify Song util hover*/
+			.panels-3wFtMD:not(:hover) > div.container-6sXIoE.withTimeline-824fT_ {
+				padding: 0;
+				overflow: hidden;
+				height: 0;
+				min-height: 0;
+				transition: all 0.1s ease-in-out;
+			}
+			/*Hide vc action buttons hover*/
+			.container-1zzFcN .actionButtons-2vEOUh {
+				transition: 250ms ease-out;
+				padding-top: 0px;
+				opacity: 0;
+				height: 0;
+			}
+			.container-1zzFcN:hover .actionButtons-2vEOUh {
+				padding-top: 4px;
+				height: 36px;
+				opacity: 1;
+			}
+			
+			/*Hide user panel buttons*/
+			.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+				opacity: 0% !important;
+				width: 0px;
+				transition: all 0.2s ease-in-out;
+			}
+			.panels-3wFtMD > .container-YkUktl .flex-2S1XBF  {
+				margin-left: auto; 
+			}
+			
+			.panels-3wFtMD > .container-YkUktl .flex-2S1XBF:hover > :not(:last-child) {
+				opacity: 100% !important;
+				width: 32px;
+			}
+			
+			
+			/*fix status option spacing*/ 
+			#account-game-activity::before {
+			display:none;
+		}
+		#account-fake-deafen::before {
+		display:none;
+	}	
